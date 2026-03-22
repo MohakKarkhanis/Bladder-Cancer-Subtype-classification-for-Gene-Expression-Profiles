@@ -22,7 +22,14 @@ Deployment: Streamlit
 3. Dimensionality Reduction: The high-dimensional dataset was converted into a wide format. PCA was applied to capture significant variance, followed by UMAP to preserve both local and global structure of the orignal datafor distinct clustering. Samples are used as rows and individual genes are columns showcasing their gene expression profiles. **Dimensions (Rows x Columns) 229 x 59427**
 4. Model Training: A Random Forest classifier was trained on the scaled data, achieving an overall accuracy of approximately 87% (0.8696- to be exact). **Classification Report (Only Precision |Recall | f1-score): Basal (0.89 | 0.89 | 0.89), Luminal (0.90 | 0.95 | 0.92), TP53-like (0.75 | 0.67 | 0.71)**
 5. Visualizing Gene Importance using SHAP: Shapley Additive Explanations (SHAP) were utilized to understand feature importance, identifying specific genes that had the highest impact on the model's predictions. **Top 5: RUNX1T1, ANXA6, GATA3, AL148206.1, GFPT2**
-6. Web Deployment: The trained model and necessary cache resources were saved using Joblib and deployed as an interactive web dashboard using Streamlit
+6. Web Deployment: The trained model and necessary cache resources were saved using Joblib and deployed as an interactive web dashboard using Streamlit.
+
+**Note**
+Any novel gene expression data when formatted correctly (Rows: Samples, Columns: Genes) can be processed through the Streamlit server for real-time classification.
+
+**Steps to Run the App**
+1. Ensure streamlit is installed _pip install streamlit_.
+2. Navigate to [Streamlit Folder](Streamlit)
 
 
 
