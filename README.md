@@ -29,7 +29,7 @@ Any novel gene expression data when formatted correctly (Rows: Samples, Columns:
 
 **Steps to Run the App**
 1. Ensure streamlit is installed _pip install streamlit_.
-2. Navigate to [Streamlit Folder](Streamlit)
+2. Navigate to [Streamlit Folder](Streamlit) containing [App.py](App.py) and the [Trained Models]
 
 
 
