@@ -29,7 +29,9 @@ Any novel gene expression data when formatted correctly (Rows: Samples, Columns:
 
 **Steps to Run the App**
 1. Ensure streamlit is installed _pip install streamlit_.
-2. Navigate to [Streamlit Folder](Streamlit) containing [App.py](Streamlit/App.py) and the [Trained Models](Streamlit/trained_models)
+2. Navigate to [Streamlit Folder](Streamlit) containing [App.py](Streamlit/App.py) and the [Trained Models](Streamlit/trained_models) and download.
+3. Run the following command from Terminal (Ensure that the location of the terminal is set to directory where you have stored the streamlit files): _streamlit run App.py_
+4. In [App.py](Streamlit/App.py) change the 
 
 
 
