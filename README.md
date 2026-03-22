@@ -33,4 +33,4 @@ Any novel gene expression data when formatted correctly (Rows: Samples, Columns:
 3. Run the following command from Terminal (Ensure that the location of the terminal is set to directory where you have stored the streamlit files): _streamlit run App.py_
 
 
-The Code file is [Codes for 1.ipynb]()
+The Code file is [Codes for 1.ipynb](https://github.com/MohakKarkhanis/Project-1/blob/main/Codes%20for%201.ipynb)
