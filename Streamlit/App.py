@@ -6,12 +6,12 @@ import os
 import shap
 import matplotlib.pyplot as plt
 
-# --- Streamlit UI Setup ---
+# Streamlit UI Setup 
 st.set_page_config(page_title="Cancer Subtype Predictor", layout="wide")
 st.title("Cancer Subtype Prediction from Gene Expression")
 st.markdown("Upload a CSV for molecular subtype prediction (MDA classification).")
 
-# --- Model & Preprocessor Loading (Cached) ---
+# Model & Preprocessor Loading (Cached) 
 @st.cache_resource
 def load_model_components():
     models_dir = 'trained_models'
@@ -31,7 +31,7 @@ def load_model_components():
 # Load components
 model, scaler, label_encoder, training_gene_names = load_model_components()
 
-# --- File Upload & Validation ---
+# File Upload & Validation
 st.info("""
     **CSV Upload Instructions:**
     - Gene expression data in CSV format.
@@ -51,7 +51,7 @@ if uploaded_file is not None:
         st.write("Preview:")
         st.dataframe(input_df.head())
 
-        # --- Data Preparation ---
+        # Data Preparation
         processed_input_data = pd.DataFrame(0.0, index=input_df.index, columns=training_gene_names)
         common_genes = list(set(input_df.columns) & set(training_gene_names))
         processed_input_data[common_genes] = input_df[common_genes]
