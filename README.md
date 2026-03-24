@@ -1,6 +1,7 @@
 # Bladder Cancer Subtype classification for Gene Expression Profiles
 
-Cloud Deployed Model: [Click Here](https://bladder-cancer-subtype-classification-for-gene-expression-prof.streamlit.app/)
+Cloud Deployed Model: [Click Here](https://bladder-cancer-subtype-classification-for-gene-expression-prof.streamlit.app/).
+
 The following repository contains the code, methodology and results for classifying bladder cancer into its subtypes.
 
 The [Steps_Followed.docx](https://github.com/MohakKarkhanis/Project-1/blob/main/Steps_Followed.docx) file describes every step implemented to achieve the project's goal, so it is highly recommended to download it for comprehensive reference. As GitHub supports a maximum of 2GB with LFS, the raw and cleaned datasets are not published in this repository as they account for a size >2GB. However, their contents, dimensions and processing steps are fully described in the document.
