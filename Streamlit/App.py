@@ -16,10 +16,10 @@ st.markdown("Upload a CSV for molecular subtype prediction (MDA classification).
 def load_model_components():
     models_dir = 'trained_models'
     try:
-        model = joblib.load(os.path.join(models_dir, 'random_forest_model.joblib'))
-        scaler = joblib.load(os.path.join(models_dir, 'scaler.joblib'))
-        label_encoder = joblib.load(os.path.join(models_dir, 'label_encoder.joblib'))
-        gene_names = joblib.load(os.path.join(models_dir, 'gene_names.joblib'))
+        model = joblib.load(os.path.join(models_dir, 'Streamlit/trained_models/random_forest_model.joblib'))
+        scaler = joblib.load(os.path.join(models_dir, 'Streamlit/trained_models/scaler.joblib'))
+        label_encoder = joblib.load(os.path.join(models_dir, 'Streamlit/trained_models/label_encoder.joblib'))
+        gene_names = joblib.load(os.path.join(models_dir, 'Streamlit/trained_models/gene_names.joblib'))
         return model, scaler, label_encoder, gene_names
     except FileNotFoundError as e:
         st.error(f"Error loading model components: {e}. Check 'trained_models' folder.")
