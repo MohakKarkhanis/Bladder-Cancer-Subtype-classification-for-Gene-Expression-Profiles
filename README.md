@@ -1,6 +1,6 @@
 # Bladder Cancer Subtype classification for Gene Expression Profiles
  
-**Cloud Deployed Model: [Click Here](https://bladder-cancer-subtype-classification-for-gene-expression-prof.streamlit.app/). Download the Demo File and upload it in the webpage's dropbox to try out the model [Click Here to Download the Demo_File.csv](https://github.com/MohakKarkhanis/Bladder-Cancer-Subtype-classification-for-Gene-Expression-Profiles/blob/main/Streamlit/Demo%20File.csv)**
+**Cloud Model: [Click Here](https://bladder-cancer-subtype-classification-for-gene-expression-prof.streamlit.app/). Download the Demo File and upload it in the webpage's dropbox to try out the model [Click Here to Download the Demo_File.csv](https://github.com/MohakKarkhanis/Bladder-Cancer-Subtype-classification-for-Gene-Expression-Profiles/blob/main/Streamlit/Demo%20File.csv)**
 
 The following repository contains the code, methodology and results for classifying bladder cancer into its subtypes.
 
