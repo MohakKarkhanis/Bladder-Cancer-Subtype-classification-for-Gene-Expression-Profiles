@@ -29,11 +29,13 @@ Deployment: Streamlit
 Any novel gene expression data when formatted correctly (Rows: Samples, Columns: Genes) can be processed through the Streamlit server for real-time classification.
 
 **Steps to Run the App**
+
 a. Manually from Local Host
 1. Ensure streamlit is installed _pip install streamlit_.
 2. Navigate to [Streamlit Folder](Streamlit) containing [App.py](Streamlit/App.py) and the [Trained Models](Streamlit/trained_models) and download.
 3. Manually change the trained model's file paths in App.py.
 4. Run the following command from Terminal (Ensure that the location of the terminal is set to directory where you have stored the streamlit files): _streamlit run App.py_
+
 b. Cloud
 1. The model has been deployed on streamlit.share.io: [Link](https://bladder-cancer-subtype-classification-for-gene-expression-prof.streamlit.app/).
 2. Download the Demo File and upload it in the webpage's dropbox to try out the model [Click Here to Download](https://github.com/MohakKarkhanis/Bladder-Cancer-Subtype-classification-for-Gene-Expression-Profiles/blob/main/Streamlit/Demo%20File.csv).
