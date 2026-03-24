@@ -31,7 +31,7 @@ Any novel gene expression data when formatted correctly (Rows: Samples, Columns:
 **Steps to Run the App**
 
 a. Manually from Local Host
-1. Ensure streamlit is installed _pip install streamlit_.
+1. Ensure streamlit is installed or install using  `_pip install streamlit_`.
 2. Navigate to [Streamlit Folder](Streamlit) containing [App.py](Streamlit/App.py) and the [Trained Models](Streamlit/trained_models) and download.
 3. Manually change the trained model's file paths in App.py.
 4. Run the following command from Terminal (Ensure that the location of the terminal is set to directory where you have stored the streamlit files): _streamlit run App.py_
