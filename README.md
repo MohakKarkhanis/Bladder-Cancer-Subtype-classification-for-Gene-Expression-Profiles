@@ -1,4 +1,4 @@
-# Cancer Subtype classification for Gene Expression Profiles
+# Bladder Cancer Subtype classification for Gene Expression Profiles
 
 The following repository contains the code, methodology and results for classifying bladder cancer into its subtypes.
 
